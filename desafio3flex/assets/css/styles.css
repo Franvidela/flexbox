@@ -1,0 +1,22 @@
+.flex-container{
+    border: 1px solid black;
+    padding: 20px;
+    width: 700px;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-items{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.flex-items p {
+    margin-left: 30px;
+}

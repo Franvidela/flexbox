@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #c9c9c9;
+    flex-direction: column;
+    height: 100px;
+    padding: 20px;
+}
+.flex-row{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #c9c9c9;
+}
+.flex-item{
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rosybrown;
+    text-align: center;
+}

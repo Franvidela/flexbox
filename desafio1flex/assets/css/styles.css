@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 400px;
+  }
+  .flex-item{
+  flex-basis: 300px;    
+  }
+  .button{
+    border: none;
+    font-size: 60px;
+    background-color: aquamarine;
+    color: white;
+    padding: 20px 40px;
+  }
